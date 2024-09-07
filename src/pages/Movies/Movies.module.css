@@ -1,0 +1,35 @@
+.container {
+    padding: 2rem;
+    background-color: #2e2b40;
+    min-height: 100vh;
+}
+
+.searchForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.searchInput {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #4a3f63;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    width: 300px;
+}
+
+.searchButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #6a4c93;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+    background-color: #7b5d9e;
+}
